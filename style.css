@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    line-height: 1.4;
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.header{
+    width: 100%;
+    height: 100%;
+    background-color: #E9C012;
+}
+.navigation{
+    margin-bottom: 4rem;
+    background-color: #E9C012;
+    width: 100%;
+    height: 8vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+}
+.navbar .nav__logo a{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+.navbar .navbar__nav a{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+.banner{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 3rem;
+}
+.banner .title h1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+}
+.banner .title p{
+    color: white;
+    margin-bottom: 2rem;
+}
+.banner .title button{
+    padding: 0.5rem 0.5rem;
+    color: black;
+    border: 0;
+    width: 30%;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+.banner .title button:hover{
+    box-shadow: 5px 5px 20px white;
+    border: 2px solid white;
+    background-color: #E9C012;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.vvv{
+    width: 100%;
+    height: 60vh;
+    background-image: url(/img/hero-bg.png);
+    background-size: 100% 100%;
+    background-color: white;
+}   
+
+/* about */
+
+.about{
+    width: 100%;
+    padding: 4.8rem 0;
+    background-color: #fff;
+
+}
+.about__content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+}
+.about__item{
+    text-align: right;
+    cursor: pointer;
+}
+.about__item h2{
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+}
+.about__item p{
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+}
+.about__item button{
+    padding: 0.5rem 0.5rem;
+    font-size: 1.2rem;
+    border: 0;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.about__item button:hover{
+    font-size: 1.2rem;
+    border: 2px solid aqua;
+    background-color: #fff;
+    box-shadow: 5px 5px 20px grey;
+    font-weight: 600;
+}
+
+/* admition */
+
+.admison{
+    width: 100%;
+    padding: 4.8rem 0;
+    background-color: #fff;
+}
+.admison__content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+}
+.admison__item{
+    text-align: left;
+    cursor: pointer;
+}
+.admison__item h2{
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+}
+.admison__item p{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1rem;
+}
+.admison__item button{
+    padding: 0.5rem 0.5rem;
+    font-size: 1.2rem;
+    border: 0;
+    background-color: rgb(232, 232, 17);
+    border-radius: 10px;
+}
+.admison__item button:hover{
+    font-size: 1.2rem;
+    background-color: white;
+    border: 2px solid rgb(232, 232, 17);
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px grey;
+    font-weight: 600;
+}
+
+/* why */
+
+.why{
+    width: 100%;
+    padding: 4.8rem 0;
+    background-color: #fff;
+
+}
+.why__content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+}
+.why__item{
+    text-align: right;
+    cursor: pointer;
+}
+.why__item h2{
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+}
+.why__item p{
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+}
+.why__item button{
+    padding: 0.5rem 0.5rem;
+    font-size: 1.2rem;
+    border: 0;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.why__item button:hover{
+    font-size: 1.2rem;
+    border: 2px solid aqua;
+    background-color: #fff;
+    box-shadow: 5px 5px 20px grey;
+    font-weight: 600;
+}
+
+/* determine */
+
+.determine{
+    width: 100%;
+    padding: 4.8rem 0;
+    background-color: #fff;
+}
+.determine__content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+}
+.determine__item{
+    text-align: left;
+    cursor: pointer;
+}
+.determine__item h2{
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+}
+.determine__item p{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1rem;
+}
+.determine__item button{
+    padding: 0.5rem 0.5rem;
+    font-size: 1.2rem;
+    border: 0;
+    background-color: rgb(232, 232, 17);
+    border-radius: 10px;
+}
+.determine__item button:hover{
+    font-size: 1.2rem;
+    background-color: white;
+    border: 2px solid rgb(232, 232, 17);
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px grey;
+    font-weight: 600;
+}
+
+/* testimonial */
+
+.testimonial{
+    width: 100%;
+    padding: 4.8rem 0;
+    background-color: #fff;
+}
+.testimonial .container h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.testimonial__content{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: 3rem;
+    width: 90%;
+    margin: 0 auto;
+}
+.testimonial__item h5{
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+}
+.testimonial__item p{
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 1rem;
+}
+
+/* Contact */
+
+.contact{
+    width: 100%;
+    padding: 4.8rem 0;
+    background-color: #fff;
+}   
+.contact__content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+}
+.contact form{
+    margin-top: 10vh;
+}
+.contact form h2{
+    margin-bottom: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+}
+.contact form  input{
+    width: 100%;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    text-indent: 10px;
+}
+.contact form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-size: 1.2rem;
+    text-indent: 10px;
+    margin-bottom: 2rem;
+
+}
+.contact form button{
+    width: 100px;
+    padding: 0.5rem 0.5rem;
+    font-size: 1.2rem;
+    border: 0;
+    background-color: #E9C012;
+    border-radius: 20px;
+}
+.contact form button:hover{
+    color: black;
+    background-color: #fff;
+    border: 2px solid #E9C012;
+}
+.footer{
+    width: 100%;
+    padding: 4.8rem 0;
+    background-color: #262626;
+}
+.footer .title{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 4rem;
+}
+.footer .title h2{
+    display: inline-block;
+    border-bottom: 2px solid #ecf402;
+}
+.footer__content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+.footer__item{
+    color: white;
+    text-align: left;
+}
+.footer__item h2{
+    font-size: 2rem;
+    font-family: cursive;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.footer__item p{
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+.footer__item span{
+    display: block;
+}
+.footer__item form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.footer__item form input{
+    width: 100%;
+    height: 6vh;
+    font-size: 1rem;
+    text-indent: 10px;
+    border-radius: 12px;
+}
+.footer__item form button{
+    width: 60%;
+    height: 6vh;
+    font-size: 1rem;
+    text-indent: 10px;
+    background-color: #E9C012;
+    color: #fff;
+    border-radius: 12px;
+}
+.social__media {
+    width: 80%;
+    margin: 0 auto;
+    border-top: 1px solid #f8f8f8;
+    padding: 2.8rem 0;
+    display: flex;
+    justify-content: center;
+}
+.social__media a{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.5rem;
+    color: black;
+    background-color: #fff;
+    padding: 0.5rem 0.9rem;
+    border-radius: 100%;
+    transition: all 0.5s linear;
+}
+.social__media a:hover{
+    color: #fff;
+    background-color: #262626;
+}
+.copyright{
+    background-color: #E9C012;
+    width: 100%;
+    padding: 1.8rem 0;
+    text-align: center;
+
+}
+.copyright a{
+    color: #000;
+}
+.copyright a:hover{
+    color: white;
+}
+
+.navigation .fa-bars{
+    display: none;
+}
